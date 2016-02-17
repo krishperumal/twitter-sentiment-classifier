@@ -1,0 +1,565 @@
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: pos, neg
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0423 * (normalized) f1
+ +       0.0428 * (normalized) f2
+ +      -0.0536 * (normalized) f3
+ +       0.017  * (normalized) f4
+ +      -0.278  * (normalized) f5
+ +       0.0681 * (normalized) f6
+ +       0.0238 * (normalized) f7
+ +       0.0238 * (normalized) f10
+ +       0.122  * (normalized) fv2
+ +      -0.0783 * (normalized) fv3
+ +      -0.0964 * (normalized) fv4
+ +       0.083  * (normalized) fv6
+ +       0.0238 * (normalized) fv7
+ +      -0.0818 * (normalized) fv8
+ +       0.0333 * (normalized) fv9
+ +       0.089  * (normalized) fv13
+ +       0.0333 * (normalized) fv14
+ +       0.0238 * (normalized) fv15
+ +      -0.0616 * (normalized) fv16
+ +       0.0238 * (normalized) fv18
+ +       0.089  * (normalized) fv19
+ +      -0.0783 * (normalized) fv21
+ +       0.1031 * (normalized) fv23
+ +      -0.0783 * (normalized) fv26
+ +       0.1031 * (normalized) fv27
+ +       0.2657 * (normalized) fv29
+ +       0.0238 * (normalized) fv30
+ +      -0.0964 * (normalized) fv32
+ +      -0.134  * (normalized) fv34
+ +       0.0333 * (normalized) fv35
+ +      -0.0407 * (normalized) fv39
+ +      -0.134  * (normalized) fv40
+ +       0.0573 * (normalized) fv41
+ +       0.0238 * (normalized) fv42
+ +      -0.0411 * (normalized) fv44
+ +      -0.0381 * (normalized) fv45
+ +       0.0573 * (normalized) fv46
+ +       0.0238 * (normalized) fv47
+ +       0.089  * (normalized) fv50
+ +      -0.0411 * (normalized) fv51
+ +      -0.0783 * (normalized) fv53
+ +      -0.0783 * (normalized) fv54
+ +       0.0573 * (normalized) fv55
+ +      -0.0964 * (normalized) fv56
+ +       0.0333 * (normalized) fv58
+ +      -0.0631 * (normalized) fv60
+ +      -0.0964 * (normalized) fv62
+ +       0.0681 * (normalized) fv63
+ +      -0.0407 * (normalized) fv64
+ +      -0.1371 * (normalized) fv67
+ +      -0.0783 * (normalized) fv68
+ +       0.0333 * (normalized) fv71
+ +      -0.0964 * (normalized) fv72
+ +       0.122  * (normalized) fv73
+ +      -0.0766 * (normalized) fv74
+ +      -0.0964 * (normalized) fv75
+ +       0.0548 * (normalized) fv77
+ +      -0.0964 * (normalized) fv79
+ +       0.0333 * (normalized) fv80
+ +      -0.0411 * (normalized) fv81
+ +       0.0573 * (normalized) fv83
+ +      -0.3855 * (normalized) fv84
+ +       0.1031 * (normalized) fv85
+ +       0.0238 * (normalized) fv87
+ +       0.062  * (normalized) fv88
+ +       0.0238 * (normalized) fv89
+ +       0.0238 * (normalized) fv90
+ +      -0.0407 * (normalized) fv91
+ +      -0.0411 * (normalized) fv94
+ +      -0.1134 * (normalized) fv95
+ +      -0.0411 * (normalized) fv96
+ +      -0.0783 * (normalized) fv99
+ +      -0.0411 * (normalized) fv103
+ +       0.0573 * (normalized) fv104
+ +      -0.0783 * (normalized) fv105
+ +       0.0238 * (normalized) fv106
+ +      -0.2122 * (normalized) fv107
+ +       0.0238 * (normalized) fv109
+ +       0.0573 * (normalized) fv110
+ +      -0.0411 * (normalized) fv111
+ +       0.0238 * (normalized) fv113
+ +       0.1031 * (normalized) fv116
+ +      -0.0766 * (normalized) fv118
+ +       0.1874 * (normalized) fv121
+ +      -0.0783 * (normalized) fv122
+ +       0.0333 * (normalized) fv126
+ +       0.2657 * (normalized) fv128
+ +      -0.0508 * (normalized) fv129
+ +      -0.0407 * (normalized) fv130
+ +       0.0238 * (normalized) fv132
+ +      -0.0411 * (normalized) fv133
+ +       0.0119 * (normalized) fv134
+ +      -0.278  * (normalized) fv135
+ +       0.089  * (normalized) fv136
+ +       0.089  * (normalized) fv137
+ +       0.0238 * (normalized) fv138
+ +       0.0333 * (normalized) fv139
+ +       0.0333 * (normalized) fv140
+ +      -0.0964 * (normalized) fv142
+ +       0.0573 * (normalized) fv143
+ +       0.0238 * (normalized) fv145
+ +       0.0238 * (normalized) fv146
+ +      -0.134  * (normalized) fv148
+ +       0.0333 * (normalized) fv152
+ +       0.0238 * (normalized) fv153
+ +       0.0428 * (normalized) fv154
+ +       0.0333 * (normalized) fv155
+ +       0.0573 * (normalized) fv156
+ +       0.0238 * (normalized) fv157
+ +      -0.0783 * (normalized) fv159
+ +       0.0573 * (normalized) fv160
+ +      -0.0407 * (normalized) fv161
+ +       0.0238 * (normalized) fv163
+ +      -0.119  * (normalized) fv164
+ +      -0.0964 * (normalized) fv165
+ +       0.089  * (normalized) fv166
+ +      -0.0411 * (normalized) fv168
+ +       0.0333 * (normalized) fv169
+ +       0.0573 * (normalized) fv171
+ +       0.0333 * (normalized) fv173
+ +       0.0563 * (normalized) fv174
+ +      -0.0964 * (normalized) fv175
+ +      -0.3321 * (normalized) fv176
+ +       0.2251 * (normalized) fv177
+ +       0.0811 * (normalized) fv178
+ +       0.0756 * (normalized) fpv1
+ +      -0.0342 * (normalized) fpv2
+ +       0.1109 * (normalized) fpv3
+ +       0.0617 * (normalized) fpv4
+ +       0.0413 * (normalized) fpv5
+ +      -0.0322 * (normalized) fpv6
+ +       0.1001 * (normalized) fpv7
+ +       0.0462 * (normalized) fpv8
+ +      -0.0166 * (normalized) fpv9
+ +       0.0676 * (normalized) fpv10
+ +       0.0588 * (normalized) fpv11
+ +       0.015  * (normalized) fpv12
+ +      -0.025  * (normalized) fpv13
+ +      -0.1036 * (normalized) fpv14
+ +      -0.0957 * (normalized) fpv15
+ +       0.0261 * (normalized) fpv16
+ +       0.0246 * (normalized) fpv17
+ +      -0.0584 * (normalized) fpv18
+ +       0.011  * (normalized) fpv19
+ +      -0.0109 * (normalized) fpv20
+ +       0.2811 * (normalized) fpv21
+ +       0.0345 * (normalized) fpv22
+ +       0.143  * (normalized) fpv23
+ +      -0.0236 * (normalized) fpv24
+ +      -0.0345 * (normalized) fpv25
+ +       0.2926
+
+Number of kernel evaluations: 91 (93.458% cached)
+
+Classifier for classes: pos, ntr
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0442 * (normalized) f1
+ +      -0.0878 * (normalized) f2
+ +      -0.1627 * (normalized) f3
+ +      -0.0563 * (normalized) f4
+ +      -0.1382 * (normalized) f5
+ +      -0.0526 * (normalized) f6
+ +       0.0239 * (normalized) f7
+ +       0.1029 * (normalized) f8
+ +       0.0253 * (normalized) f9
+ +       0.0079 * (normalized) f11
+ +       0.0239 * (normalized) fv1
+ +      -0.0526 * (normalized) fv3
+ +      -0.0749 * (normalized) fv4
+ +       0.2336 * (normalized) fv5
+ +       0.0182 * (normalized) fv6
+ +      -0.0897 * (normalized) fv8
+ +       0.0239 * (normalized) fv10
+ +       0.018  * (normalized) fv11
+ +       0.0079 * (normalized) fv12
+ +      -0.039  * (normalized) fv16
+ +       0.0239 * (normalized) fv17
+ +       0.0253 * (normalized) fv20
+ +      -0.0526 * (normalized) fv21
+ +       0.0239 * (normalized) fv22
+ +       0.0239 * (normalized) fv24
+ +       0.018  * (normalized) fv25
+ +      -0.0526 * (normalized) fv26
+ +       0.1029 * (normalized) fv28
+ +       0.0253 * (normalized) fv31
+ +      -0.0749 * (normalized) fv32
+ +       0.0253 * (normalized) fv33
+ +      -0.107  * (normalized) fv34
+ +       0.0239 * (normalized) fv36
+ +       0.0239 * (normalized) fv37
+ +       0.0079 * (normalized) fv38
+ +      -0.0893 * (normalized) fv39
+ +      -0.107  * (normalized) fv40
+ +       0.0239 * (normalized) fv42
+ +       0.0079 * (normalized) fv43
+ +      -0.0083 * (normalized) fv44
+ +      -0.0795 * (normalized) fv45
+ +       0.0433 * (normalized) fv48
+ +       0.0253 * (normalized) fv49
+ +      -0.0083 * (normalized) fv51
+ +       0.018  * (normalized) fv52
+ +      -0.0526 * (normalized) fv53
+ +      -0.0273 * (normalized) fv54
+ +      -0.0749 * (normalized) fv56
+ +       0.018  * (normalized) fv57
+ +       0.0079 * (normalized) fv59
+ +      -0.0749 * (normalized) fv60
+ +       0.018  * (normalized) fv61
+ +      -0.0749 * (normalized) fv62
+ +      -0.0526 * (normalized) fv63
+ +      -0.0713 * (normalized) fv64
+ +       0.0239 * (normalized) fv65
+ +       0.018  * (normalized) fv66
+ +      -0.0614 * (normalized) fv67
+ +      -0.0526 * (normalized) fv68
+ +       0.1029 * (normalized) fv69
+ +       0.1029 * (normalized) fv70
+ +      -0.0749 * (normalized) fv72
+ +      -0.099  * (normalized) fv74
+ +      -0.0749 * (normalized) fv75
+ +       0.0253 * (normalized) fv76
+ +       0.0197 * (normalized) fv77
+ +       0.1029 * (normalized) fv78
+ +      -0.0749 * (normalized) fv79
+ +      -0.0083 * (normalized) fv81
+ +       0.0253 * (normalized) fv82
+ +      -0.1771 * (normalized) fv84
+ +       0.0253 * (normalized) fv86
+ +      -0.0083 * (normalized) fv88
+ +      -0.0893 * (normalized) fv91
+ +       0.0079 * (normalized) fv92
+ +       0.0079 * (normalized) fv93
+ +      -0.0083 * (normalized) fv94
+ +      -0.1642 * (normalized) fv95
+ +      -0.0083 * (normalized) fv96
+ +       0.0239 * (normalized) fv97
+ +       0.018  * (normalized) fv98
+ +      -0.0526 * (normalized) fv99
+ +       0.0976 * (normalized) fv100
+ +       0.0239 * (normalized) fv101
+ +       0.0079 * (normalized) fv102
+ +      -0.0083 * (normalized) fv103
+ +      -0.0526 * (normalized) fv105
+ +      -0.1595 * (normalized) fv107
+ +       0.0239 * (normalized) fv108
+ +      -0.0083 * (normalized) fv111
+ +       0.0253 * (normalized) fv112
+ +       0.0253 * (normalized) fv114
+ +       0.0239 * (normalized) fv115
+ +       0.1029 * (normalized) fv117
+ +      -0.107  * (normalized) fv118
+ +       0.0239 * (normalized) fv119
+ +       0.1029 * (normalized) fv120
+ +      -0.0526 * (normalized) fv121
+ +      -0.0526 * (normalized) fv122
+ +       0.018  * (normalized) fv123
+ +       0.0239 * (normalized) fv124
+ +       0.0253 * (normalized) fv125
+ +       0.0253 * (normalized) fv127
+ +      -0.0523 * (normalized) fv129
+ +       0.0135 * (normalized) fv130
+ +       0.0239 * (normalized) fv131
+ +      -0.0083 * (normalized) fv133
+ +       0.0278 * (normalized) fv134
+ +      -0.1382 * (normalized) fv135
+ +       0.0239 * (normalized) fv138
+ +       0.0239 * (normalized) fv141
+ +      -0.0749 * (normalized) fv142
+ +       0.0079 * (normalized) fv144
+ +       0.0253 * (normalized) fv147
+ +      -0.107  * (normalized) fv148
+ +       0.0239 * (normalized) fv149
+ +       0.0079 * (normalized) fv150
+ +       0.0253 * (normalized) fv151
+ +      -0.0878 * (normalized) fv154
+ +       0.0239 * (normalized) fv158
+ +      -0.0526 * (normalized) fv159
+ +      -0.0893 * (normalized) fv161
+ +       0.018  * (normalized) fv162
+ +       0.0917 * (normalized) fv164
+ +      -0.0749 * (normalized) fv165
+ +       0.0253 * (normalized) fv167
+ +      -0.0083 * (normalized) fv168
+ +       0.018  * (normalized) fv170
+ +       0.2416 * (normalized) fv172
+ +      -0.0752 * (normalized) fv174
+ +      -0.0749 * (normalized) fv175
+ +      -0.3367 * (normalized) fv176
+ +       0.042  * (normalized) fpv1
+ +      -0.0311 * (normalized) fpv2
+ +       0.0396 * (normalized) fpv3
+ +       0.0322 * (normalized) fpv4
+ +       0.0286 * (normalized) fpv5
+ +      -0.0171 * (normalized) fpv6
+ +       0.1129 * (normalized) fpv7
+ +       0.0425 * (normalized) fpv8
+ +       0.0942 * (normalized) fpv9
+ +      -0.0412 * (normalized) fpv10
+ +       0.0425 * (normalized) fpv11
+ +       0.0171 * (normalized) fpv12
+ +       0.06   * (normalized) fpv13
+ +       0.0222 * (normalized) fpv14
+ +      -0.0611 * (normalized) fpv15
+ +       0.0136 * (normalized) fpv16
+ +       0.0315 * (normalized) fpv17
+ +       0.0598 * (normalized) fpv18
+ +       0.0416 * (normalized) fpv19
+ +       0.1495 * (normalized) fpv20
+ +       0.1233 * (normalized) fpv21
+ +       0.0359 * (normalized) fpv22
+ +       0.0706 * (normalized) fpv23
+ +      -0.0467 * (normalized) fpv24
+ +       0.0625 * (normalized) fpv25
+ +       0.0556
+
+Number of kernel evaluations: 78 (92.941% cached)
+
+Classifier for classes: neg, ntr
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0178 * (normalized) f1
+ +      -0.1869 * (normalized) f2
+ +      -0.1869 * (normalized) f3
+ +      -0.0644 * (normalized) f4
+ +      -0.1024 * (normalized) f5
+ +      -0.1348 * (normalized) f6
+ +       0.0041 * (normalized) f7
+ +       0.0942 * (normalized) f8
+ +       0.0308 * (normalized) f9
+ +      -0.044  * (normalized) f10
+ +       0.0149 * (normalized) f11
+ +       0.0481 * (normalized) fv1
+ +      -0.0882 * (normalized) fv2
+ +       0.276  * (normalized) fv5
+ +      -0.0639 * (normalized) fv6
+ +      -0.044  * (normalized) fv7
+ +       0.0149 * (normalized) fv8
+ +      -0.047  * (normalized) fv9
+ +       0.0481 * (normalized) fv10
+ +       0.0327 * (normalized) fv11
+ +       0.0149 * (normalized) fv12
+ +      -0.1099 * (normalized) fv13
+ +      -0.047  * (normalized) fv14
+ +      -0.044  * (normalized) fv15
+ +       0.0694 * (normalized) fv16
+ +       0.0481 * (normalized) fv17
+ +      -0.044  * (normalized) fv18
+ +      -0.1099 * (normalized) fv19
+ +       0.0308 * (normalized) fv20
+ +       0.0481 * (normalized) fv22
+ +      -0.0842 * (normalized) fv23
+ +       0.0481 * (normalized) fv24
+ +       0.0327 * (normalized) fv25
+ +      -0.0842 * (normalized) fv27
+ +       0.0942 * (normalized) fv28
+ +      -0.0987 * (normalized) fv29
+ +      -0.044  * (normalized) fv30
+ +       0.0308 * (normalized) fv31
+ +       0.0308 * (normalized) fv33
+ +      -0.047  * (normalized) fv35
+ +       0.0481 * (normalized) fv36
+ +       0.0481 * (normalized) fv37
+ +       0.0149 * (normalized) fv38
+ +      -0.0248 * (normalized) fv41
+ +       0.0041 * (normalized) fv42
+ +       0.0149 * (normalized) fv43
+ +      -0.0987 * (normalized) fv45
+ +      -0.0248 * (normalized) fv46
+ +      -0.044  * (normalized) fv47
+ +       0.0635 * (normalized) fv48
+ +       0.0308 * (normalized) fv49
+ +      -0.1099 * (normalized) fv50
+ +       0.0327 * (normalized) fv52
+ +       0.0308 * (normalized) fv54
+ +      -0.0248 * (normalized) fv55
+ +       0.0327 * (normalized) fv57
+ +      -0.047  * (normalized) fv58
+ +       0.0149 * (normalized) fv59
+ +      -0.047  * (normalized) fv60
+ +       0.0327 * (normalized) fv61
+ +      -0.1348 * (normalized) fv63
+ +       0.0327 * (normalized) fv64
+ +       0.0481 * (normalized) fv65
+ +       0.0327 * (normalized) fv66
+ +       0.0942 * (normalized) fv67
+ +       0.0942 * (normalized) fv69
+ +       0.0942 * (normalized) fv70
+ +      -0.047  * (normalized) fv71
+ +      -0.0882 * (normalized) fv73
+ +      -0.0099 * (normalized) fv74
+ +       0.0308 * (normalized) fv76
+ +      -0.038  * (normalized) fv77
+ +       0.0942 * (normalized) fv78
+ +      -0.047  * (normalized) fv80
+ +       0.0308 * (normalized) fv82
+ +      -0.0248 * (normalized) fv83
+ +      -0.0842 * (normalized) fv85
+ +       0.0308 * (normalized) fv86
+ +      -0.044  * (normalized) fv87
+ +      -0.0842 * (normalized) fv88
+ +      -0.044  * (normalized) fv89
+ +      -0.044  * (normalized) fv90
+ +       0.0149 * (normalized) fv92
+ +       0.0149 * (normalized) fv93
+ +      -0.044  * (normalized) fv95
+ +       0.0481 * (normalized) fv97
+ +       0.0327 * (normalized) fv98
+ +       0.1183 * (normalized) fv100
+ +       0.0481 * (normalized) fv101
+ +       0.0149 * (normalized) fv102
+ +      -0.0248 * (normalized) fv104
+ +      -0.044  * (normalized) fv106
+ +       0.0481 * (normalized) fv108
+ +      -0.044  * (normalized) fv109
+ +      -0.0248 * (normalized) fv110
+ +       0.0308 * (normalized) fv112
+ +      -0.044  * (normalized) fv113
+ +       0.0308 * (normalized) fv114
+ +       0.0481 * (normalized) fv115
+ +      -0.0842 * (normalized) fv116
+ +       0.0942 * (normalized) fv117
+ +      -0.0248 * (normalized) fv118
+ +       0.0481 * (normalized) fv119
+ +       0.0942 * (normalized) fv120
+ +      -0.0987 * (normalized) fv121
+ +       0.0327 * (normalized) fv123
+ +       0.0481 * (normalized) fv124
+ +       0.0308 * (normalized) fv125
+ +      -0.047  * (normalized) fv126
+ +       0.0308 * (normalized) fv127
+ +      -0.0987 * (normalized) fv128
+ +       0.0409 * (normalized) fv129
+ +       0.0942 * (normalized) fv130
+ +       0.0481 * (normalized) fv131
+ +      -0.044  * (normalized) fv132
+ +       0.0336 * (normalized) fv134
+ +      -0.1024 * (normalized) fv135
+ +      -0.1099 * (normalized) fv136
+ +      -0.1099 * (normalized) fv137
+ +       0.0041 * (normalized) fv138
+ +      -0.047  * (normalized) fv139
+ +      -0.047  * (normalized) fv140
+ +       0.0481 * (normalized) fv141
+ +      -0.0248 * (normalized) fv143
+ +       0.0149 * (normalized) fv144
+ +      -0.044  * (normalized) fv145
+ +      -0.044  * (normalized) fv146
+ +       0.0308 * (normalized) fv147
+ +       0.0481 * (normalized) fv149
+ +       0.0149 * (normalized) fv150
+ +       0.0308 * (normalized) fv151
+ +      -0.047  * (normalized) fv152
+ +      -0.044  * (normalized) fv153
+ +      -0.1869 * (normalized) fv154
+ +      -0.047  * (normalized) fv155
+ +      -0.0248 * (normalized) fv156
+ +      -0.044  * (normalized) fv157
+ +       0.0481 * (normalized) fv158
+ +      -0.0248 * (normalized) fv160
+ +       0.0327 * (normalized) fv162
+ +      -0.044  * (normalized) fv163
+ +       0.276  * (normalized) fv164
+ +      -0.1099 * (normalized) fv166
+ +       0.0308 * (normalized) fv167
+ +      -0.047  * (normalized) fv169
+ +       0.0327 * (normalized) fv170
+ +      -0.0248 * (normalized) fv171
+ +       0.2909 * (normalized) fv172
+ +      -0.047  * (normalized) fv173
+ +      -0.141  * (normalized) fv174
+ +      -0.0987 * (normalized) fv176
+ +      -0.1724 * (normalized) fv177
+ +      -0.0688 * (normalized) fv178
+ +       0.0138 * (normalized) fpv1
+ +      -0.0301 * (normalized) fpv2
+ +      -0.0247 * (normalized) fpv3
+ +      -0.0071 * (normalized) fpv4
+ +       0.0236 * (normalized) fpv5
+ +      -0.0159 * (normalized) fpv6
+ +       0.0711 * (normalized) fpv7
+ +       0.0357 * (normalized) fpv8
+ +       0.0662 * (normalized) fpv9
+ +      -0.1279 * (normalized) fpv10
+ +       0.0373 * (normalized) fpv11
+ +       0.0438 * (normalized) fpv12
+ +       0.1141 * (normalized) fpv13
+ +       0.1131 * (normalized) fpv14
+ +      -0.0357 * (normalized) fpv15
+ +       0.026  * (normalized) fpv16
+ +       0.0353 * (normalized) fpv17
+ +       0.0779 * (normalized) fpv18
+ +       0.0529 * (normalized) fpv19
+ +       0.1484 * (normalized) fpv20
+ +       0.0438 * (normalized) fpv21
+ +      -0.0117 * (normalized) fpv22
+ +       0.0126 * (normalized) fpv23
+ +      -0.0575 * (normalized) fpv24
+ +       0.0916 * (normalized) fpv25
+ -       0.1054
+
+Number of kernel evaluations: 91 (92.196% cached)
+
+
+
+Time taken to build model: 0.08 seconds
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          19              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.2222
+Root mean squared error                  0.2722
+Relative absolute error                 50.1199 %
+Root relative squared error             57.8137 %
+Total Number of Instances               19     
+
+
+=== Confusion Matrix ===
+
+ a b c   <-- classified as
+ 6 0 0 | a = pos
+ 0 7 0 | b = neg
+ 0 0 6 | c = ntr
+
+
+=== Error on test data ===
+
+Correctly Classified Instances           8               88.8889 %
+Incorrectly Classified Instances         1               11.1111 %
+Kappa statistic                          0.8235
+Mean absolute error                      0.2469
+Root mean squared error                  0.3143
+Relative absolute error                 55.5556 %
+Root relative squared error             66.5979 %
+Total Number of Instances                9     
+
+
+=== Confusion Matrix ===
+
+ a b c   <-- classified as
+ 1 1 0 | a = pos
+ 0 3 0 | b = neg
+ 0 0 4 | c = ntr
+
